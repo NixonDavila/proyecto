@@ -37,7 +37,11 @@ height: 150px;
 
 
 
+.habP{
+font-size: 20px;
 
+
+}
 
 
 
@@ -230,3 +234,112 @@ svg circle:nth-child(2){
         transform: translate(0,-2rem);
     }
 }
+
+
+
+
+.informacion{
+
+    width: 100%;
+
+    height: 500px;
+
+   
+}
+
+.experiencia{
+
+    width: 100%;
+
+    height: 70%;
+
+   
+
+    display: flex;
+
+}
+
+.experiencia-izquierda{
+    width: 58%;
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: center;
+
+
+
+
+}
+
+
+.exp-iz{
+
+
+    width: 90%;
+    height: 90%;
+}
+
+.iz1{
+width: 100%;
+
+height: 50%;
+
+
+
+}
+
+.iz2{
+    width: 100%;
+    
+    height: 50%;
+    
+   
+    
+    }
+
+    .trabajo{
+
+        font-size: 20px;
+    }
+
+.foto{
+
+    width: 40%;
+
+    height: 100%;
+
+
+display: flex;
+justify-content: start;
+
+align-items: center;
+
+}
+
+.foto-conteiner{
+background-image: url("./img/ted.jpg");
+
+background-size: cover;
+
+background-repeat: no-repeat;
+    width: 80%;
+
+    height: 90%;
+}
+
+
+
+.educacionYHobby{
+
+    width: 100%;
+
+    height: 30%;
+
+    background-color: rgb(89, 0, 255);
+
+
+}
+
