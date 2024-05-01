@@ -1,4 +1,15 @@
 
+body{
+
+height: 100vh;
+
+background-color: azure; 
+
+}
+
+
+
+
 
 .titulo{
     color: blueviolet;
@@ -333,13 +344,13 @@ background-repeat: no-repeat;
 
 
 .educacionYHobby{
+    display: flex;
 
     width: 100%;
 
-    height: 50%;
+    height: 55%;
 
-    background-color: rgb(89, 0, 255);
-
+   
 
 }
 
@@ -347,9 +358,9 @@ background-repeat: no-repeat;
 
 .educacion{
 
-    width: 100%;
+    width: 50%;
 
-    height: 70%;
+    height: 100%;
 
    
 
@@ -399,3 +410,29 @@ height: 50%;
 
         font-size: 20px;
     }
+
+
+    .Hobbies{
+      
+
+        width: 50%;
+
+    height: 100%;
+
+
+    display: flex;
+    justify-content: space-around;
+
+        
+    
+    }
+
+    .sub-titulo3{
+
+        font-size: 20px;
+    }
+
+
+
+
+    
